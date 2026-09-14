@@ -1,0 +1,167 @@
+{
+  "name": "CineForge Skills",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "name": "00-film-director",
+      "title": "Film Director Orchestrator",
+      "stage": "director",
+      "path": "skills/00-film-director/SKILL.md",
+      "description": "Orchestrates an AI film project from brief to master. Routes work to specialist skills, enforces stage gates, manages canon, shot state, continuity, approvals, and generation cost."
+    },
+    {
+      "name": "01-creative-brief",
+      "title": "Creative Brief Architect",
+      "stage": "development",
+      "path": "skills/01-creative-brief/SKILL.md",
+      "description": "Turns an idea, client brief, script seed, or campaign objective into a production-ready creative brief with audience, message, tone, constraints, deliverables, risks, and success criteria."
+    },
+    {
+      "name": "02-story-development",
+      "title": "Story Development",
+      "stage": "development",
+      "path": "skills/02-story-development/SKILL.md",
+      "description": "Builds logline, premise, dramatic question, theme, beat sheet, sequence map, scene objectives, and runtime-aware story structure for shorts, ads, music videos, and narrative films."
+    },
+    {
+      "name": "03-screenplay",
+      "title": "Screenplay Architect",
+      "stage": "development",
+      "path": "skills/03-screenplay/SKILL.md",
+      "description": "Writes and revises screenplays for image-to-video and text-to-video production, balancing dramatic clarity with generatability, continuity, dialogue economy, and shot feasibility."
+    },
+    {
+      "name": "04-story-bible",
+      "title": "Story Bible Builder",
+      "stage": "preproduction",
+      "path": "skills/04-story-bible/SKILL.md",
+      "description": "Creates the canonical source of truth for story facts, character relationships, chronology, world rules, motifs, locations, props, wardrobe states, and non-negotiable continuity constraints."
+    },
+    {
+      "name": "05-character-bible",
+      "title": "Character Bible",
+      "stage": "preproduction",
+      "path": "skills/05-character-bible/SKILL.md",
+      "description": "Creates persistent character identity packets covering face, body, age, hair, wardrobe, silhouette, mannerisms, emotional baseline, voice, forbidden drift, and reference-asset policy."
+    },
+    {
+      "name": "06-world-bible",
+      "title": "World & Location Bible",
+      "stage": "preproduction",
+      "path": "skills/06-world-bible/SKILL.md",
+      "description": "Creates persistent environments and production-design canon: geography, architecture, era, materials, dressing, weather, lighting logic, entrances, sightlines, recurring props, and spatial anchors."
+    },
+    {
+      "name": "07-visual-language",
+      "title": "Visual Language Director",
+      "stage": "preproduction",
+      "path": "skills/07-visual-language/SKILL.md",
+      "description": "Defines the film-wide image grammar: aspect ratio, composition, lens families, camera behavior, lighting logic, palette, texture, contrast, filtration, grain, production design, and style exclusions."
+    },
+    {
+      "name": "08-cinematography",
+      "title": "Cinematography Director",
+      "stage": "production",
+      "path": "skills/08-cinematography/SKILL.md",
+      "description": "Designs camera placement, focal behavior, movement, blocking, exposure intent, depth, eyelines, coverage, transitions, and shot-to-shot visual progression without relying on brand-specific prompt syntax."
+    },
+    {
+      "name": "09-performance",
+      "title": "Performance Director",
+      "stage": "production",
+      "path": "skills/09-performance/SKILL.md",
+      "description": "Directs actor behavior through objective, obstacle, tactic, beat, subtext, gaze, breath, posture, gesture, tempo, interpersonal distance, and emotional continuity."
+    },
+    {
+      "name": "10-shotlist",
+      "title": "Shotlist Director",
+      "stage": "production",
+      "path": "skills/10-shotlist/SKILL.md",
+      "description": "Converts a scene or whole script into a connected production shotlist with shot IDs, timing, purpose, framing, camera, blocking, continuity dependencies, assets, prompt payload, sound, transition, and acceptance criteria."
+    },
+    {
+      "name": "11-continuity",
+      "title": "Continuity Supervisor",
+      "stage": "production",
+      "path": "skills/11-continuity/SKILL.md",
+      "description": "Tracks identity, wardrobe, props, screen direction, eyelines, geography, lighting, weather, injuries, object state, temporal state, and last-frame/first-frame bridges across every shot."
+    },
+    {
+      "name": "12-reference-strategy",
+      "title": "Reference Strategy",
+      "stage": "production",
+      "path": "skills/12-reference-strategy/SKILL.md",
+      "description": "Selects and ranks reference assets for identity, wardrobe, location, prop, composition, motion, and style; prevents conflicting references and defines reference hierarchy and fallback behavior."
+    },
+    {
+      "name": "13-image-generation",
+      "title": "Image Generation Director",
+      "stage": "generation",
+      "path": "skills/13-image-generation/SKILL.md",
+      "description": "Builds generation-ready keyframe and reference-image prompts with identity locks, composition, lighting, lens intent, production design, negatives, and reproducibility metadata."
+    },
+    {
+      "name": "14-video-generation",
+      "title": "Video Generation Director",
+      "stage": "generation",
+      "path": "skills/14-video-generation/SKILL.md",
+      "description": "Builds model-agnostic video prompts for single shots and timed multi-shot sequences, with motion, camera, performance, continuity, first/last frame, audio intent, and failure-avoidance constraints."
+    },
+    {
+      "name": "15-dialogue-lipsync",
+      "title": "Dialogue & Lip-Sync Director",
+      "stage": "generation",
+      "path": "skills/15-dialogue-lipsync/SKILL.md",
+      "description": "Prepares dialogue for generated performance: line timing, phonetic risk, breath, pauses, mouth visibility, speaking order, overlap policy, reaction beats, and sync-friendly camera coverage."
+    },
+    {
+      "name": "16-vfx",
+      "title": "VFX Supervisor",
+      "stage": "post",
+      "path": "skills/16-vfx/SKILL.md",
+      "description": "Plans generative and conventional visual effects: effect decomposition, plate strategy, clean plates, masks, particles, destruction, energy, compositing order, motion continuity, and realism checks."
+    },
+    {
+      "name": "17-sound-design",
+      "title": "Sound Design Supervisor",
+      "stage": "post",
+      "path": "skills/17-sound-design/SKILL.md",
+      "description": "Designs diegetic sound, ambience, Foley, transitions, impacts, room tone, perspective, sonic motifs, dynamic hierarchy, and shot-level sound cues."
+    },
+    {
+      "name": "18-music",
+      "title": "Music Supervisor",
+      "stage": "post",
+      "path": "skills/18-music/SKILL.md",
+      "description": "Creates a music brief and edit map: emotional arc, tempo zones, motif strategy, instrumentation, structure, hit points, transitions, stems, ducking, and licensing/usage notes."
+    },
+    {
+      "name": "19-editorial",
+      "title": "Editorial Director",
+      "stage": "post",
+      "path": "skills/19-editorial/SKILL.md",
+      "description": "Builds the edit from shot intent: select logic, continuity cuts, match cuts, J/L cuts, montage density, pacing, reaction timing, shot duration, pickup needs, and versioning."
+    },
+    {
+      "name": "20-color-finishing",
+      "title": "Color & Finishing Supervisor",
+      "stage": "post",
+      "path": "skills/20-color-finishing/SKILL.md",
+      "description": "Defines shot matching, exposure normalization, white-balance continuity, contrast curve, palette protection, skin handling, grain/noise consistency, sharpening restraint, and final look QC."
+    },
+    {
+      "name": "21-qc",
+      "title": "Film QC Supervisor",
+      "stage": "quality",
+      "path": "skills/21-qc/SKILL.md",
+      "description": "Audits finished shots and cuts for identity drift, anatomy, continuity, spatial logic, temporal errors, camera physics, lip sync, artifacts, edit rhythm, sound, titles, and delivery compliance."
+    },
+    {
+      "name": "22-delivery",
+      "title": "Mastering & Delivery",
+      "stage": "quality",
+      "path": "skills/22-delivery/SKILL.md",
+      "description": "Prepares technical masters and platform variants with codec, resolution, frame rate, audio loudness, captions, safe areas, naming, checksum, archive, and handoff metadata."
+    }
+  ]
+}
